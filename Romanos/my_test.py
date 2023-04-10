@@ -1,9 +1,8 @@
-
 import unittest
 from my_romanos import decimal_to_roman
 from my_romanos import roman_to_decimal
         
-class TestDecimanalToRogman(unittest.TestCase):
+class decimal_to_roman(unittest.TestCase):
     def test_1(self):
         resultado = decimal_to_roman(1)
         self.assertEqual(resultado, "I")
@@ -166,4 +165,4 @@ class TestRomantodecimal(unittest.TestCase):
         self.assertEqual(resultado, 678)
 
 if __name__ == '__main__':
-    unittest.main()   
+    unittest.main()
